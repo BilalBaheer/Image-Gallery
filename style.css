@@ -1,3 +1,10 @@
 .navbar {
+    background-color: rgb(15, 15, 15);
     border-bottom: 2px solid #ffc107 ;
+    font-family: 'Dancing Script', cursive;
+}
+
+.jumbotron {
+    background-color: rgba(30, 30, 30, 0.5);
+    color: white;
 }
