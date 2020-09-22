@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .navbar {
     background-color: rgb(15, 15, 15);
     border-bottom: 2px solid #ffc107 ;
@@ -7,4 +10,19 @@
 .jumbotron {
     background-color: rgba(26, 26, 26, 0.5);
     color: white;
+}
+.icon {
+   font-size: 3rem; 
+}
+
+.icon > a {
+    color: gray;
+    margin: 1rem;
+}
+
+.icon > a:hover {
+    text-decoration: none;
+    color: rgb(24, 41, 196);
+    transition: transform .7s;
+    transform: rotate(-360deg);;
 }
